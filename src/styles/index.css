@@ -80,9 +80,10 @@ section h2 {
 /* Icons */
 .skill-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.skill-color {
+.skill-list path,
+.skill-list circle {
   fill: #fefefe;
   transition: .2s;
 }
@@ -316,10 +317,22 @@ section h2 {
     width: 90vw;
   }
 }
-@media screen and (max-width: 524px) {
+@media screen and (max-width: 620px) {
   .project-buttons a {
     width: 150px;
   }
+  .skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #about {
+    display: block;
+  }
+  .profile-pic {
+    margin: 1em auto;
+  }
+}
+@media screen and (max-width: 410px) {
   .skill-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -330,14 +343,6 @@ section h2 {
   .skill-logo:hover {
     height: 7.3em;
   }
-  #about {
-    display: block;
-  }
-  .profile-pic {
-    margin: 1em auto;
-  }
-}
-@media screen and (max-width: 410px) {
   .project-buttons a {
     width: 120px;
   }
