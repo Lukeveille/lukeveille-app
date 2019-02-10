@@ -28,7 +28,7 @@ export const ProjectDisplay = (props) => {
         <img className="desktop-frame" alt={props.name + "-desktop"} style={deskBg} id={props.name + "-desktop"} src={desktopFrame} />
         <div className="project-buttons">
           <a href={props.live} target="_blank" rel="noopener noreferrer">Live</a>
-          {/* <a href={"#" + props.name + "-btn"} id={props.name + "-btn"} onClick={() => { props.showProjectModal(props.name) }}>Details</a> */}
+          <a href={"#" + props.name + "-btn"} id={props.name + "-btn"} onClick={() => { props.showProjectModal(props.name) }}>Details</a>
           <a href={props.github} target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
         <img className="mobile-frame" alt={props.name + "-mobile"} style={mobileBg} id={props.name + "-mobile"} src={mobileFrame} />

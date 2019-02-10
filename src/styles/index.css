@@ -267,12 +267,6 @@ section h2 {
 .modal-box h4 {
   margin: .2em;
 }
-.display-flex {
-  display: flex;
-}
-.display-none {
-  display: none;
-}
 .modal-top-row {
   display: relative;
   text-align: right;
