@@ -322,7 +322,6 @@ section h2 {
     width: 150px;
   }
   .skill-list {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   #about {
@@ -334,14 +333,7 @@ section h2 {
 }
 @media screen and (max-width: 410px) {
   .skill-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .skill-logo {
-    height: 7em;
-  }
-  .skill-logo:hover {
-    height: 7.3em;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .project-buttons a {
     width: 120px;
